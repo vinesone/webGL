@@ -12,16 +12,15 @@ Firefox 51, Chrome 56, and Opera 43.
 
 ## Developing directly with WebGL
 
-``` 
-If you’re a graphics genius with a PHD in Mathematics, this is definitely the way to go. For most of us mere mortals, I don’t recommend it.
 
-Using pure WebGL is the equivalent of learning and programming directly in assembly language, when you could be using a language like C++ to make your life easier.
-```
+> If you’re a graphics genius with a PHD in Mathematics, this is definitely the way to go. For most of us mere mortals, I don’t recommend it.
+
+> Using pure WebGL is the equivalent of learning and programming directly in assembly language, when you could be using a language like C++ to make your life easier.
+
 
 ## Frameworks 
 
-WebGL frameworks abstract away a lot of the 
-
+WebGL frameworks abstract away a lot of the difficult parts of webGL.
 
 
 ### <b>[Three.js](https://threejs.org/)</b>
