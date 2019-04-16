@@ -20,8 +20,7 @@ Using pure WebGL is the equivalent of learning and programming directly in assem
 
 ## Frameworks 
 
-WebGL frameworks abstract away a lot of the 
-
+WebGL frameworks abstract away a lot of the difficult parts of webGL.
 
 
 ### <b>[Three.js](https://threejs.org/)</b>
