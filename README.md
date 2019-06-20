@@ -40,11 +40,11 @@ Shaders are validated by the browser and are converted into bytecode to be ran o
 <img src="./imgs/pipeline.jpg"/>
 
 ### > ShaderToy Examples: 
-https://www.shadertoy.com/view/MdfBRX<br />
-https://www.shadertoy.com/view/3l23Rh<br/>
-https://www.shadertoy.com/view/XslGRr<br />
-https://www.shadertoy.com/view/MdX3Rr<br />
-https://www.shadertoy.com/view/llK3Dy<br />
+[Driving in the Rain](https://www.shadertoy.com/view/MdfBRX)<br />
+[Protean clouds](https://www.shadertoy.com/view/3l23Rh)<br/>
+[Clouds](https://www.shadertoy.com/view/XslGRr)<br />
+[Elevated Mountains](https://www.shadertoy.com/view/MdX3Rr)<br />
+[Rhodium Liquid Carbon](https://www.shadertoy.com/view/llK3Dy)<br />
 
 ## Developing directly with Shaders & WebGL
 
@@ -64,7 +64,7 @@ WebGL frameworks abstract away a lot of the difficult parts of WebGL. (The diffe
 
 The most widly used framework for coding webGL.
 
-First released in April of 2010 by Ricardo Cabello (Mr. Doob). Was originally developed in ActionScript, which is where I first learned about the libary.
+First released in April of 2010 by Ricardo Cabello (Mr. Doob). Was originally developed in ActionScript, which is where I first learned about the libary. I was using Papervision in 2005. <br />😬😬😬
 
 Some great examples of three.js in the wild:<br/>
 [Particles](https://particle-love.com/)<br/>
@@ -78,55 +78,53 @@ Some great examples of three.js in the wild:<br/>
 ### <b>[Babylon.js](https://www.babylonjs.com/)</b>
 
 
-For an exhaustive list of webGL frameworks visit: 
-https://en.wikipedia.org/wiki/List_of_WebGL_frameworks
+For an exhaustive list of webGL frameworks visit:</br>
+[https://en.wikipedia.org/wiki/List_of_WebGL_frameworks](https://en.wikipedia.org/wiki/List_of_WebGL_frameworks)
 
 Resource used here re: frameworks<br/>
-https://hackernoon.com/five-ways-to-build-webgl-apps-4c7eb541d193
+[https://hackernoon.com/five-ways-to-build-webgl-apps-4c7eb541d193](https://hackernoon.com/five-ways-to-build-webgl-apps-4c7eb541d193)
 
 ### > Code Examples
 
 Directly interacting with the WebGL api: <br/>
-https://codepen.io/arock/pen/NZdjBp?&editable=true&editors=101<br/>
-https://www.shadertoy.com/view/Ms2SD1
+[https://codepen.io/arock/pen/NZdjBp?&editable=true&editors=101](https://codepen.io/arock/pen/NZdjBp?&editable=true&editors=101<)<br/>
+[https://www.shadertoy.com/view/Ms2SD1](https://www.shadertoy.com/view/Ms2SD1)
 
 w/ Framework: <br />
-https://codepen.io/arock/pen/qzRjWe?editors=0010<br/>
-https://codepen.io/arock/pen/GbrmPo?editors=0010
+[https://codepen.io/arock/pen/qzRjWe?editors=0010](https://codepen.io/arock/pen/qzRjWe?editors=0010) (Edit)<br/>
+[https://codepen.io/arock/pen/GbrmPo?editors=0010](https://codepen.io/arock/pen/GbrmPo?editors=0010)
 
 
 ### Postprocessing
 
-One of the most interesting things to me is postprocessing. Where the GPU used to effect the whole screen after it has been rasterised at the very end of the render pipeline. (See render pipeline above)
+One of the most interesting things to me with WebGL is postprocessing. Where the GPU used to effect the whole screen after it has been rasterised at the very end of the render pipeline. (See render pipeline above)
 
 Post processing generally refers to applying some kind of effect or filter to a 2D image. In the case of THREE.js we have a scene with a bunch of meshes in it. We render that scene into a 2D image. Normally that image is rendered directly into the canvas and displayed in the browser but instead we can render it to a render target and then apply some post processing effects to the result before drawing it to the canvas. It's called post processing because it happens after (post) the main scene processing.
 
 Post processing are like Instagram filters, Photoshop filters, etc... except they run on every frame of an animation. And a great example of post processing is when you are playing a first person shooter and your health is going down and the screen gets blury or scratchy: 
 
-**FPS lens scratches**<br/>
-https://vanruesc.github.io/postprocessing/public/demo/#texture
+**[FPS lens scratches](https://vanruesc.github.io/postprocessing/public/demo/#texture)**<br/>
 
-**Depth Of Field**<br/>
-https://threejs.org/examples/#webgl_postprocessing_dof2
+**[Depth Of Field](https://threejs.org/examples/#webgl_postprocessing_dof2)**<br/>
 
-**Bloom Filter**<br/>
-https://threejs.org/examples/#webgl_postprocessing_unreal_bloom_selective <br/>
-https://vanruesc.github.io/postprocessing/public/demo/#bloom (Full example list)
+**[Bloom Filter](https://threejs.org/examples/#webgl_postprocessing_unreal_bloom_selective )**
+<br/>
+**[Bloom + Full example list](https://vanruesc.github.io/postprocessing/public/demo/#bloom )**
 
-Thank you! <br/>
-https://codepen.io/arock/pen/mZRwMW?editors=0010
+**Thank you!** <br/>
+[https://codepen.io/arock/pen/mZRwMW?editors=0010](https://codepen.io/arock/pen/mZRwMW?editors=0010)
 
 Other Interesting Links: <br/>
-https://experiments.withgoogle.com/search?q=WebGL<br/>
-https://artsexperiments.withgoogle.com/freefall/random#739.65,-658.32,3424.45<br/>
+[https://experiments.withgoogle.com/search?q=WebGL](https://experiments.withgoogle.com/search?q=WebGL)<br/>
+[https://artsexperiments.withgoogle.com/freefall/random#739.65,-658.32,3424.45](https://artsexperiments.withgoogle.com/freefall/random#739.65,-658.32,3424.45)<br/>
 
 More Resource:<br/>
-https://webglfundamentals.org/<br/>
-https://www.khronos.org/assets/uploads/developers/library/2015-gtc/NVIDIA-Shaders-WebGL-Meetup-GTC_Mar15.pdf
+[https://webglfundamentals.org/](https://webglfundamentals.org/)<br/>
+[https://www.khronos.org/assets/uploads/developers/library/2015-gtc/NVIDIA-Shaders-WebGL-Meetup-GTC_Mar15.pdf](https://www.khronos.org/assets/uploads/developers/library/2015-gtc/NVIDIA-Shaders-WebGL-Meetup-GTC_Mar15.pdf)
 
 WebGL Tools: <br/>
-https://webglstudio.org/<br/>
-https://site.vizor.io/<br/>
-https://developer.mozilla.org/en-US/docs/Tools/Shader_Editor<br/>
+[https://webglstudio.org/](https://webglstudio.org/)<br/>
+[https://site.vizor.io/](https://site.vizor.io/)<br/>
+[https://developer.mozilla.org/en-US/docs/Tools/Shader_Editor](https://developer.mozilla.org/en-US/docs/Tools/Shader_Editor)<br/>
 
 
