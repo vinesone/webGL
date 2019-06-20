@@ -101,11 +101,11 @@ w/ Framework: <br />
 
 ### Postprocessing
 
-One of the most interesting things to me with WebGL is postprocessing. Where the GPU used to effect the whole screen after it has been rasterised at the very end of the render pipeline. (See render pipeline above)
+One of the most interesting things to me with WebGL is postprocessing. Postprocessing uses the GPU to effect the whole screen after it has been rasterised at the very end of the render pipeline. (See render pipeline above)
 
 Post processing generally refers to applying some kind of effect or filter to a 2D image. In the case of THREE.js we have a scene with a bunch of meshes in it. We render that scene into a 2D image. Normally that image is rendered directly into the canvas and displayed in the browser but instead we can render it to a render target and then apply some post processing effects to the result before drawing it to the canvas. It's called post processing because it happens after (post) the main scene processing.
 
-Post processing are like Instagram filters, Photoshop filters, etc... except they run on every frame of an animation. And a great example of post processing is when you are playing a first person shooter and your health is going down and the screen gets blury or scratchy: 
+Post processing code is like Instagram filters, Photoshop filters, etc... except they run on every frame of an animation loop. A great example of post processing is when you are playing video game that is a first person shooter and your health gets low: the screen usually gets blurry at the edges and has scratches, etc... 
 
 **[FPS lens scratches](https://vanruesc.github.io/postprocessing/public/demo/#texture)**<br/>
 
