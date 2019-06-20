@@ -39,6 +39,11 @@ Shaders are validated by the browser and are converted into bytecode to be ran o
 
 <img src="./imgs/pipeline.jpg"/>
 
+Ideally you want your code to pass through this pipeline in 16 milliseconds or less: allowing your frame to refresh at a rate 60fps. Why 60 fps? (Film runs 24 fps) Most screens have a refresh rate of 60Hz. 1Hz = 1 cycle per second.
+
+Here is was 24fps looks like in comparison to 60fps on screen: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WyvUIA7KUjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### > ShaderToy Examples: 
 [Driving in the Rain](https://www.shadertoy.com/view/MdfBRX)<br />
 [Protean clouds](https://www.shadertoy.com/view/3l23Rh)<br/>
