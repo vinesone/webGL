@@ -30,7 +30,7 @@ At Equinox WebGL is used to render the Grip test in **Digital Equifit** as well 
 
 ## Shaders (Very High level)
 
-Shaders are validated by the browser and are converted into bytecode to be ran on the GPU. A shader program can be run very fast and in parallel on many pixels at one time.
+Shaders are validated by the browser and are converted into bytecode to be ran on the GPU. A shader program runs very fast and in parallel on many pixels at one time.
 
 1. Vertex Shader - basically calculates coorinates
 2. Fragment Shader - calculates the color for the current pixel being rendered
